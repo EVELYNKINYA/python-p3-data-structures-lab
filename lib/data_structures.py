@@ -17,7 +17,17 @@ spicy_foods = [
 ]
 
 def get_names(spicy_foods):
-    pass
+    return [food['name'] for food in spicy_foods]
+
+spicy_foods = [
+    {"name": "Green Curry", "spiciness": "Medium"},
+    {"name": "Buffalo Wings", "spiciness": "Hot"},
+    {"name": "Mapo Tofu", "spiciness": "Spicy"}
+]
+
+result = get_names(spicy_foods)
+print(result)
+# Output: ["Green Curry", "Buffalo Wings", "Mapo Tofu"]
 
 def get_spiciest_foods(spicy_foods):
     pass
