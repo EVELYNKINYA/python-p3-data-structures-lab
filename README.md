@@ -83,7 +83,7 @@ than 5.
 get_spiciest_foods(spicy_foods)
 # => [{"name": "Green Curry", "cuisine": "Thai", "heat_level": 9}, {"name": "Mapo Tofu", "cuisine": "Sichuan", "heat_level": 6}]
 ```
-
+ 
 ### `print_spicy_foods()`
 
 Define a function `print_spicy_foods()` that takes a list of `spicy_foods` and
